@@ -1,0 +1,25 @@
+{
+    "name": "qsl-for-vscode",
+    "displayName": "qsl-for-vscode",
+    "description": "QSL for Visual Studio Code.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "qsl",
+            "aliases": ["QSL", "qsl"],
+            "extensions": [".qsl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "qsl",
+            "scopeName": "source.qsl",
+            "path": "./syntaxes/qsl.tmLanguage.json"
+        }]
+    }
+}

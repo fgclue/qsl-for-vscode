@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "QSL",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.qsl",
+				"match": "\\b(main|last|start|end|call|arg|delete|read|write|download|run|for|loop|loopTime)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.qsl",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.qsl",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.qsl"
+}
