@@ -14,3 +14,21 @@ QSL is an coding language where you can:
 - Render Text & Images on the screen
 - Do Calculations
 - Variables
+- Printing on the Terminal
+
+# Frequently Asked Questions (FAQ)
+
+## What does QSL stand for?
+QSL stands for QuickShortcutLanguage. 
+
+## Why does QSL stand for QuickShortcutLanguage?
+It is because QSL originally was made for creating Shortcuts as .exe files.
+
+## Why does QSL compile to C++ and not binary?
+I am way too bad at coding to make it compile to binary.
+
+## What file format does QSL use?
+It uses .qsl as a file format.
+
+<a style="font-size: 69px; font-family: monospace; color: rgb(0, 250, 0);">thanks
+<br>bye</a>
