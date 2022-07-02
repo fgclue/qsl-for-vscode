@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.qsl",
-				"match": "\\b(main|last|start|end|call|arg|delete|read|write|download|run|for|loop|loopTime)\\b"
+				"match": "\\b(main|last|start|end|call|arg|delete|read|write|download|run|for|loop|loopTime|type|mouse|step|up|left|right|down|bottom|top|x|y|z|url|base64|dir|file|bgColor|CTRL|ENTER|render|image|text|math)\\b"
 			}]
 		},
 		"strings": {
